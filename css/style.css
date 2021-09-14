@@ -1,7 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    vertical-align: middle;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+#header{
+    background-color:#ffffff;
+    padding: 60px 0 0 0;
+
+}
+
+#logo{
+    padding:10px 0px 10px 200px;
+    vertical-align: middle;
+}
+
+#add{
+    padding: 0 0 5px 6px;
+    border-bottom: 1px solid black;
+}
+.button_add_blue, .button_add_white{
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #000000; ;
+}
+
+#main{
+    background-color: rgb(209, 188, 188);
+    width: 55%;
+    margin: auto;
+    padding: 20px 30px 50px 40px;
+}
+
+#body{
+    background-color: #ffffff;
+}
+
 h1{
     display: inline-block;
 }
 
-#new-task{
+.first_menu{
+  padding:25px 0 0 0 ;
+}
+
+.new-task{
     display:inline-block;
+    padding:13px 0 0 0;
+}
+
+.button_task_violett, .button_task_green, .button_task_orange , .button_task_blue{
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-size: 8px;
+}
+
+.button_task_violett{
+    background-color: #9c72e4;
+}
+
+.button_task_green{
+    background-color:#b0c926
+}
+
+.button_task_orange{
+    background-color:#fdedda
+}
+
+.button_task_blue{
+    background-color: #45abe9
 }

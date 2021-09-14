@@ -9,69 +9,84 @@
       <title>html-css-booleaner</title>
   </head>
 
-  <body>
-      <header>
-          <img src="img\Logo.png" alt="logo">
-          <h1>Toboolist</h1>
-      </header>
+  <body id="body">
+            <!--Logo e titolo-->
+            <section id="container">
+                <header>
+                    <div id="header">
+                        <img id="logo" src="img\Logo.png" alt="logo">
+                        <h1>Toboolist</h1>
+                    </div>
+               </header>
 
-      <main>
-          <section>
-            <button type="button">Add Task</button>
-            <button type="button">Add Section</button>
-          </section>
+                <!--Bottoni-->
 
-          <section>
-              <h4>&#9662;New task</h4>
-              <p id="new-task">&#10003; Quarterly Newsletter</p>
-              <button class="button" type="button">Editorial</button>
+                <section id="main">
+                    <main>
+                        <section id="add">
+                            <button class="button_add_blue" type="button">Add Task</button>
+                            <button class="button_add_white" type="button">Add Section</button>
+                        </section>
 
-          </section>
+                <!--New task-->     
 
-          <section>
-            <h4>&#9662;Today</h4>
-            <div>
-                <p id="new-task">&#10003; Recruiting blog post</p>
-                <button class="button" type="button">Editorial</button>
-            </div>
+                        <section>
+                            <h2 class="first_menu">&#9662;New task</h2>
+                            <p class="new-task">&#10003; Quarterly Newsletter</p>
+                            <button class="button_task_blue" type="button">Editorial</button>
 
-            <div>
-                <p id="new-task">&#10003; Mobile app luaunch</p>
-                <button class="button" type="button">Q1 Goals</button>
-            </div>
+                        </section>
 
-            <div>
-                <p id="new-task">&#120;;Interview Jonh H.</p>
-                <button class="button" type="button">Recruiting</button>
-            </div>
+                <!--Today-->    
 
-            <div>
-                <p id="new-task">&#10003; Summit update to mobile storefronts</p>
-                <button class="button" type="button">Mobile</button>
-            </div>
-        </section>
+                        <section>
+                            <h2 class="first_menu">&#9662;Today</h2>
+                            <div>
+                                <p class="new-task">&#10003; Recruiting blog post</p>
+                                <button class="button_task_blue" type="button">Editorial</button>
+                            </div>
 
-        <section>
-            <h4>&#9662;Upcoming</h4>
-            <div>
-                <p id="new-task">&#10003; Schedule meeting with Alex</p>
-            </div>
+                            <div>
+                                <p class="new-task">&#10003; Mobile app luaunch</p>
+                                <button class="button_task_violett" type="button">Q1 Goals</button>
+                            </div>
 
-            <div>
-                <p id="new-task">&#120;; Homepage refresh</p>
-                <button class="button" type="button">Editorial</button>
-            </div>
+                            <div>
+                                <p class="new-task">&#120;;Interview Jonh H.</p>
+                                <button class="button_task_green" type="button">Recruiting</button>
+                            </div>
 
-            <div>
-                <p id="new-task">&#10003; Onboard new Sales team members</p>
-                <button class="button" type="button">Website refresh</button>
-            </div>
+                            <div>
+                                <p class="new-task">&#10003; Summit update to mobile storefronts</p>
+                                <button class="button_task_orange" type="button">Mobile</button>
+                            </div>
+                        </section>
 
-            <div>
-                <p id="new-task">&#10003;Review editorial calendar</p>
-                <button class="button" type="button">Editorial</button>
-            </div>
-        </section>
+                <!--Upcoming--> 
 
-      </main>
-      
+                        <section>
+                            <h2 class="first_menu">&#9662;Upcoming</h2>
+                            <div>
+                                <p class="new-task">&#10003; Schedule meeting with Alex</p>
+                            </div>
+
+                            <div>
+                                <p class="new-task">&#120;; Homepage refresh</p>
+                                <button class="button_task_violett" type="button">Website</button>
+                            </div>
+
+                            <div>
+                                <p class="new-task">&#10003; Onboard new Sales team members</p>
+                                <button class="button_task_green" type="button">Sales</button>
+                            </div>
+
+                            <div>
+                                <p class="new-task">&#10003;Review editorial calendar</p>
+                                <button class="button_task_blue" type="button">Editorial</button>
+                            </div>
+                        </section>
+                    </main>
+                </section>
+            </section>
+    </body>     
+</html>     
