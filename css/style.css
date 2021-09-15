@@ -2,15 +2,17 @@
     margin:0;
     padding:0;
 }
-h1{
-    vertical-align: middle;
-    font-size: 40px;
-    vertical-align: middle;
+
+#body{
+    background-color: #ffffff;
 }
+
+/*Logo e titolo*/
+
 
 #header{
     background-color:#ffffff;
-    padding: 60px 0 0 0;
+    padding: 60px 0 0 110px;
 
 }
 
@@ -19,29 +21,59 @@ h1{
     vertical-align: middle;
 }
 
-#add{
-    padding: 0 0 5px 6px;
-    border-bottom: 1px solid black;
+
+h1{
+    vertical-align: middle;
+    font-size: 40px;
+    vertical-align: middle;
+    display: inline-block;
 }
+
+/*Grey box*/
+
+#main{
+    background-color: #f6f8f9;
+    width: 45%;
+    margin: auto;
+    padding: 40px 125px 50px 125px;
+    border-radius: 10px;
+}
+
+/*White box*/
+#body_box_div {
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+}
+
+/*buttons*/
+
+#add{
+    padding: 10px 0 5px 25px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+
 .button_add_blue, .button_add_white{
     padding: 4px;
     border-radius: 4px;
-    border: 1px solid #000000; ;
+    border: none; ;
 }
 
-#main{
-    background-color: rgb(209, 188, 188);
-    width: 55%;
-    margin: auto;
-    padding: 20px 30px 50px 40px;
+.button_add_blue{
+    background-color:#45abe9;
+    color: rgb(255, 255, 255);
 }
 
-#body{
-    background-color: #ffffff;
+.button_add_white{
+    color: gray;
+    background-color:#ffffff;
+    border: 1px soli gray;
 }
 
-h1{
-    display: inline-block;
+/*New task*/
+
+#list{
+    padding:0 0 5px 25px ;
 }
 
 .first_menu{
@@ -53,11 +85,18 @@ h1{
     padding:13px 0 0 0;
 }
 
+/*Button violett,green,orange,blue*/
+
 .button_task_violett, .button_task_green, .button_task_orange , .button_task_blue{
     padding: 7px;
     border-radius: 10px;
     border: none;
     font-size: 8px;
+}
+
+/*Today*/
+.button_task_blue{
+    background-color: #45abe9
 }
 
 .button_task_violett{
@@ -72,8 +111,11 @@ h1{
     background-color:#fdedda
 }
 
-.button_task_blue{
-    background-color: #45abe9
+/*Upcoming*/
+
+.row{
+    border: 1px solid rgb(192, 3, 3);
+    border-radius: 40px;
 }
 
 .check{
@@ -81,12 +123,5 @@ h1{
     border-radius: 20px;
 }
 
-.row{
-    border: 1px solid rgb(192, 3, 3);
-    border-radius: 40px;
-}
 
-.body_box{
-    background-color: blue;
-    width: 800px;
-}
+
